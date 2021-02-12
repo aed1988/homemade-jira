@@ -3,11 +3,11 @@ import { ThemeProvider } from "styled-components";
 
 const theme = {
     colors: {
-        black: "#000000",
-        oxfordBlue: "#14213d",
-        orangeWeb: "#fca311",
-        platinum: "#e5e5e5",
         white: "#ffffff",
+        black: "#000000",
+        accent1: "#14213d",
+        accent2: "#fca311",
+        offWhite: "#e5e5e5",
     },
     fonts: ["sans-serif", "Roboto"],
     fontSizes: {

@@ -1,11 +1,13 @@
-import "./App.css";
 import { HeaderContainer } from "./Containers/header";
-import Theme from "./Theme";
+import { MainContainer } from "./Containers/mainSection";
+import { LogInPage } from "./Containers/logInPage";
+import Theme from "./defaultStyling/Theme";
 
 function App() {
     return (
         <Theme>
             <HeaderContainer />
+            <LogInPage />
         </Theme>
     );
 }
